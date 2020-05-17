@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "markus-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/markusWebPart/MarkusWebPartWebPart.js",
+          "manifest": "./src/webparts/markusWebPart/MarkusWebPartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MarkusWebPartWebPartStrings": "lib/webparts/markusWebPart/loc/{locale}.js"
+  }
+}
